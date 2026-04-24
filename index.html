@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tricky question</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+    <section>
+
+
+        <div class="container">
+            <h1>TRICKY QUESTION</h1>
+            <form>
+                <table>
+
+                    <tr>
+                        <th>Name :</th>
+                        <td>
+                            <div style="position: relative; display: inline-block;">
+                                <input type="text" placeholder="Enter your name" id="name" style="text-align: center;">
+                                <span id="nameerror"
+                                    style="display:none; position:absolute; left:105%; top:50%; transform:translateY(-50%); color:red; white-space:nowrap;">
+                                    Field is empty
+                                </span>
+                            </div>
+                        </td>
+
+
+                    </tr>
+                    <tr>
+                        <th>Email :</th>
+                        <td>
+                            <div style="position: relative; display: inline-block;">
+                                <input type="text" placeholder="Enter your mail" id="email" style="text-align: center;">
+                                <span id="emailerror"
+                                    style="display:none; position:absolute; left:105%; top:50%; transform:translateY(-50%); color:red; white-space:nowrap;">
+                                    Format is incorrect
+                                </span>
+                            </div>
+                        </td>
+
+
+                    </tr>
+
+
+                    <tr>
+                        <th>password :</th>
+
+                        <td>
+                            <div style="position: relative; display: inline-block;">
+                                <input type="password" placeholder="Enter the password" id="pass"
+                                    style="text-align: center;">
+                                <span id="passerror"
+                                    style="display:none; position:absolute; left:105%; top:50%; transform:translateY(-50%); color:red; white-space:nowrap;">
+                                    Password within 6 characters
+                                </span>
+                            </div>
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+                        <th style="position:relative; bottom: 20px;">Message:</th>
+                        <td>
+                            <div style="position: relative; display: inline-block;">
+
+                                <textarea placeholder="Enter your message" style="text-align: center;" id="text"
+                                    maxlength="200">
+                                </textarea>
+
+                                <!-- counter line below textarea -->
+                                <div style="width: 100%; box-sizing: border-box;">
+
+                                    <div class="counter__line">
+                                        <span><span id="typedCount">0</span>/200 characters</span>
+                                        <span><span id="leftCount">200</span> remaining</span>
+                                    </div>
+
+                                    <!-- reserve space always so layout never jumps -->
+                                    <div id="msgwarning">Character limit reached!</div>
+
+                                </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" class="btn" style="position: absolute;"></td>
+                    </tr>
+                </table>
+            </form>
+
+
+
+
+
+
+
+
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

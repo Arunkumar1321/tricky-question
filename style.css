@@ -1,0 +1,79 @@
+.container {
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    position: relative;
+    z-index: 2;
+
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: c;
+}
+
+body {
+    background-color: #8C8C8C;
+}
+
+#name,
+#email,
+#text,
+#pass {
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+
+
+}
+
+#name,
+#email,
+#text,
+#pass:focus {
+    outline: none;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 300px;
+    right: 12%;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(182, 36, 36);
+    transition: 0.3s;
+}
+
+.counter__line {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    margin-top: 3px;
+    color: white;
+}
+
+#msgwarning {
+    font-size: 11px;
+    color: orange;
+    height: 16px;
+    visibility: hidden;
+    padding: 2px;
+    border: solid orange 1px;
+}
