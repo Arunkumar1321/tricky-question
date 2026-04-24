@@ -6,7 +6,7 @@ A beginner-friendly HTML/CSS/JavaScript project that demonstrates **real-time fo
 
 ## 📸 Preview
 
-![Tricky Question Form](C:\Users\akmir\OneDrive\Pictures\Screenshots\Screenshot 2026-04-24 180304.png)
+![Tricky Question Form](./Images/Screenshot%202026-04-24%20180304.png)
 
 ---
 
